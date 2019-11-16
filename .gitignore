@@ -1,1 +1,16 @@
+# Make sure to ignore our secret app_key file:
 app_key
+
+# Normal clojure ignore list:
+/target
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/

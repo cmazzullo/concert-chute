@@ -7,7 +7,7 @@
 
 ;; Teporary definitions
 (def search-terms {"location" "Washington+DC"
-                   "date" "2019111600-2019111700"
+                   "when" "this+month"
                    "category" "music"
                    "sort_order" "date"})
 
@@ -38,9 +38,16 @@
    (str/join "\n\n" ;; separate each event with a blank line
              (map pretty-print-event-str report-data)))
 
+(defn pretty-print-report-str2
+  [report-data]
+  (str/join "\n\n" ;; separate each event with a blank line
+            (map #(:title %) report-data)))
+
+
 (defn pretty-print-report
   [report-data]
-  (println (pretty-print-report-str report-data)))
+  (println (str "event count: " (count report-data)))
+  (println (pretty-print-report-str2 report-data)))
 
 
 ;; Need to fix this:
@@ -58,8 +65,9 @@
 
 (defn -main
   [& args]
-  (let [;; data (concert-chute.io/download-events search-terms)
-        data (read-string (slurp "output.txt"))
+  (let [data (concert-chute.io/download-events search-terms)
+
+        ;; data (read-string (slurp "output.txt"))
         report-data (generate-report-data data)]
     ;; (spit "output.txt" data)
     (pretty-print-report report-data)))

@@ -2,9 +2,6 @@
   (:require [clojure.test :refer :all]
             [concert-chute.io :refer :all]))
 
-
-
-
 (deftest test-event-data-munging
   (testing "Test the cleaning of the full raw data output (i.e. from download-all-data)"
     (let [raw-data [{:tag :search,

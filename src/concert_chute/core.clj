@@ -2,14 +2,17 @@
   (:require [clojure.string :as str])
   (:require [clojure.tools.cli :refer [parse-opts]])
   (:require concert-chute.io)
+  (:require java-time)
   (:gen-class))
 
 
 ;; Teporary definitions
+
+;; Note: don't use the "sort_order" term, it causes the response to be limited to 100
+;; results (I assume this is a bug in the API)
 (def search-terms {"location" "Washington+DC"
                    "when" "this+month"
-                   "category" "music"
-                   "sort_order" "date"})
+                   "category" "music"})
 
 ;; Report output
 ;;
@@ -38,16 +41,10 @@
    (str/join "\n\n" ;; separate each event with a blank line
              (map pretty-print-event-str report-data)))
 
-(defn pretty-print-report-str2
-  [report-data]
-  (str/join "\n\n" ;; separate each event with a blank line
-            (map #(:title %) report-data)))
-
-
 (defn pretty-print-report
   [report-data]
   (println (str "event count: " (count report-data)))
-  (println (pretty-print-report-str2 report-data)))
+  (println (pretty-print-report-str report-data)))
 
 
 ;; Need to fix this:
@@ -63,11 +60,28 @@
 ;;   [& args]
 ;;   (parse-opts args cli-options))
 
+(defn api-timestamp-to-datetime
+  [timestamp]
+  (java-time/local-date-time "y-M-d k:m:s" timestamp))
+
+(defn convert-report-datetimes
+  [report-data]
+  (mapv #(assoc % :start_time (api-timestamp-to-datetime (:start_time %))) report-data))
+
+(defn sort-report-by-datetime
+  [report-data]
+  (sort-by #(:start_time %) report-data))
+
+
 (defn -main
   [& args]
-  (let [data (concert-chute.io/download-events search-terms)
+  (let [;; data (concert-chute.io/download-events search-terms)
+        ;; report-data (generate-report-data data)]
 
-        ;; data (read-string (slurp "output.txt"))
-        report-data (generate-report-data data)]
-    ;; (spit "output.txt" data)
-    (pretty-print-report report-data)))
+        report-data (read-string (slurp "report-data.txt"))
+        sorted-report (sort-report-by-datetime report-data)]
+    (pretty-print-report sorted-report)
+    ;; (spit "report-data.txt" report-data)
+
+    ;;(pretty-print-report report-data))))
+))

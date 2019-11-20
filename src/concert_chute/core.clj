@@ -72,16 +72,44 @@
   [report-data]
   (sort-by #(:start_time %) report-data))
 
+(defn html-cell
+  [report-row field]
+  (str "    <td>" (field report-row) "</td>"))
+
+(defn html-report-row
+  [report-row]
+  (str
+   "  <tr>\n"
+   (str/join \newline (map #(html-cell report-row %) output-fields))
+   "\n  </tr>"))
+
+(defn html-header-cell
+  [field]
+  (str "    <th>" field "</th>"))
+
+(defn html-header-row
+  [output-fields]
+  (str
+   "  <tr>\n"
+   (str/join \newline (map html-header-cell output-fields))
+   "\n  </tr>\n"))
+
+(defn html-report
+  [report-data]
+  (str
+   "<table>\n"
+   (html-header-row output-fields)
+   (str/join \newline (map html-report-row report-data))
+   "\n</table>"))
 
 (defn -main
   [& args]
-  (let [;; data (concert-chute.io/download-events search-terms)
-        ;; report-data (generate-report-data data)]
-
-        report-data (read-string (slurp "report-data.txt"))
-        sorted-report (sort-report-by-datetime report-data)]
-    (pretty-print-report sorted-report)
-    ;; (spit "report-data.txt" report-data)
-
-    ;;(pretty-print-report report-data))))
-))
+  (let [data (concert-chute.io/download-events search-terms)
+        report-data (generate-report-data data)
+        ;; report-data (read-string (slurp "report-data.txt"))
+        sorted-report (sort-report-by-datetime report-data)
+        html (html-report sorted-report)]
+    ;; (pretty-print-report sorted-report)
+    ;; (spit "report-data.txt" report-data)))
+    ;; (spit "report.html" html)
+    (println html)))

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<search>
+  <total_items>547</total_items>
+  <page_size>10</page_size>
+  <page_count>55</page_count>
+  <page_number>1</page_number>
+  <page_items></page_items>
+  <first_item></first_item>
+  <last_item></last_item>
+  <search_time>0.246</search_time>
+  <events>
+    <event id="E0-001-129241975-5">
+      <title>Coast 2 Coast LIVE Artist Showcase DMV, DC - $50K Grand Prize</title>
+      <url>http://washingtondc.eventful.com/events/coast-2-coast-live-artist-showcase-dmv-dc-50k-g-/E0-001-129241975-5?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> COAST 2 COAST LIVE INTERACTIVE ARTIST SHOWCASE  DMV Edition 12/14/19   ARTISTS: CLICK HERE TO SUBMIT YOUR SONG FOR CHANCE TO PERFORM! Coast 2 Coast LIVE is the Largest Artist Showcase in the World that brings together Artists, DJs, Producers, Media and more for a professional networking event &amp; artist showcase. Artists in the showcase are judged by a panel of celebrity judges via the exclusive Coast 2 Coast LIVE judging system on iPads, and the winner walks away with a huge prize package to take their career to the next level and join Coast 2 Coast in Miami for the year end Coast 2 Coast Music Conference! </description>
+      <start_time>2019-12-14 21:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-012005275-1</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/pure-lounge-dc-/V0-001-012005275-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>PURE LOUNGE DC</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>1326 U ST NW</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20009</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.916737</latitude>
+      <longitude>-77.030765</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-08-06 07:14:36</created>
+      <owner>evdb</owner>
+      <modified>2019-08-06 07:14:36</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/044/613/573-6.jpeg_/coast-2-coast-live-artist-showcase-dmv-dc-50k-gra-73.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/044/613/573-6.jpeg_/coast-2-coast-live-artist-showcase-dmv-dc-50k-gra-73.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/044/613/573-6.jpeg_/coast-2-coast-live-artist-showcase-dmv-dc-50k-gra-73.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/044/613/573-6.jpeg_/coast-2-coast-live-artist-showcase-dmv-dc-50k-gra-73.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-122953225-6@2019113022">
+      <title>1015 SATURDAYS</title>
+      <url>http://washingtondc.eventful.com/events/1015-saturdays-/E0-001-122953225-6@2019113022?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Welcome To Washington DC&amp;#39;s Newest Saturday Night Destination! 1015 Lounge (Formerly Known As Bar 7 All New &amp; Renovated) Doors: 10:00pm-3:00am FREE BEFORE 12:00 AM WITH RSVP • Late Night Food Menu Available• Hookah• Valet Parking Available + Garage Parking VIP Table &amp; Bottle Service + Birthday Celebrations Call: 202-257-1706 </description>
+      <start_time>2019-11-30 22:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-010566135-2</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/1015-7th-st-nw-/V0-001-010566135-2?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>1015 7th St NW</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>1015 7th Street Northwest</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20442</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.8951</latitude>
+      <longitude>-77.0369</longitude>
+      <geocode_type>Zip Code Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>on various days</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-02-01 20:49:08</created>
+      <owner>evdb</owner>
+      <modified>2019-02-10 07:41:05</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/042/650/440-6.jpeg_/1015-saturdays-40.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/042/650/440-6.jpeg_/1015-saturdays-40.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/042/650/440-6.jpeg_/1015-saturdays-40.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/042/650/440-6.jpeg_/1015-saturdays-40.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-121818760-7@2019112821">
+      <title>INTERNATIONAL THURSDAYS: REGGAE/AFROBEATS/SOCA/HIP-HOP</title>
+      <url>http://washingtondc.eventful.com/events/international-thursdays-r-/E0-001-121818760-7@2019112821?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Afro-Caribbean Thursday night hotspot in the heart of Adams Morgan, DC. Club Timehri features a spacious dance floor, filled every Thursday night to the movement of Reggae, Afrobeat, Soca, and Hip-Hop. MUST BE 21 OR OLDER | VALID ID REQUIRED - DOORS OPEN 9 PM- FREE CHAMPAGNE BOTTLE FOR 5 LADIES BEFORE 11 PM- FREE DRINK BEFORE 12 AM- FREE ENTRY w. RSVP DRINK SPECIALS- $7 Rail- $5 Cosmo- $5 Rum Punch- $4 Apple Martini- $3 Kamikaze ShotsDRESS CODE- NO WHITE T-SHIRTS- NO SLEEVELESS SHIRTS- NO MESH SHIRTS Hosted by DJ HK &amp; DJ RejPowered by DCDHM Entertainment Special Guests/Performances September 06- Guest DJ: Kilo Vibes- Performance By: Wasted Boyz September 27- Guest DJ: Vybz FOR LIVE UPDATES &amp; INFO FOLLOW US ON INSTAGRAM @DCDHM </description>
+      <start_time>2019-11-28 21:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-013146993-9</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/club-timehri-/V0-001-013146993-9?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Club Timehri</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>2439 18th Street Northwest</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20593</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.8951</latitude>
+      <longitude>-77.0369</longitude>
+      <geocode_type>Zip Code Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>on various days</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-01-03 14:31:52</created>
+      <owner>evdb</owner>
+      <modified>2019-01-03 17:45:48</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/040/981/274-2.jpeg_/international-thursdays-reggaeafrobeat-74.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/040/981/274-2.jpeg_/international-thursdays-reggaeafrobeat-74.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/040/981/274-2.jpeg_/international-thursdays-reggaeafrobeat-74.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/040/981/274-2.jpeg_/international-thursdays-reggaeafrobeat-74.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-121768322-9@2019112621">
+      <title>Joy Club Tuesday - Cloak &amp; Dagger</title>
+      <url>http://washingtondc.eventful.com/events/joy-club-tuesday-cloak-/E0-001-121768322-9@2019112621?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Joy Club @ Cloak &amp; Dagger Every TUESDAY from 9p-2a! The week officially starts at Joy Club on Tuesday. Happy Hour Priced drinks, and music provided by Joy Club DJs. Vape &amp; Bottle Service available as well. Make sure to RSVP!DRINK SPECIALS$6 Jameson$6 1800 Tequila$20 Margarita Pitchers </description>
+      <start_time>2019-11-26 21:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-009748152-3</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/cloak-dagger-/V0-001-009748152-3?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Cloak &amp; Dagger</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>1359 U Street Northwest</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20009</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.9171499</latitude>
+      <longitude>-77.0314472</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>on various days</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-01-02 06:20:47</created>
+      <owner>evdb</owner>
+      <modified>2019-01-02 18:52:10</modified>
+      <performers>
+        <performer>
+          <id>P0-001-000147096-8</id>
+          <url>http://concerts.eventful.com/Cloak-and-Dagger?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+          <name>Cloak and Dagger</name>
+          <short_bio>artists</short_bio>
+          <creator>kingofclubspromotions</creator>
+          <linker>evdb</linker>
+        </performer>
+      </performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/042/221/235-8.jpeg_/joy-club-tuesday-cloak-dagger-35.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/042/221/235-8.jpeg_/joy-club-tuesday-cloak-dagger-35.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/042/221/235-8.jpeg_/joy-club-tuesday-cloak-dagger-35.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/042/221/235-8.jpeg_/joy-club-tuesday-cloak-dagger-35.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-130967304-8">
+      <title>Richardson - Herrera "The Jam Before Christmas"</title>
+      <url>http://washingtondc.eventful.com/events/richardson-herrera-thejambeforechristmas-/E0-001-130967304-8?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description></description>
+      <start_time>2019-12-24 19:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-000652560-7</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/blues-alley-/V0-001-000652560-7?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Blues Alley</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>1073 Wisconsin Avenue NW</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20007</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.904649</latitude>
+      <longitude>-77.0624756</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-09-30 19:51:34</created>
+      <owner>evdb</owner>
+      <modified>2019-09-30 19:51:34</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/045/154/236-5.jpeg_/richardson-herrera-thejambeforechristmas-36.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/045/154/236-5.jpeg_/richardson-herrera-thejambeforechristmas-36.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/045/154/236-5.jpeg_/richardson-herrera-thejambeforechristmas-36.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/045/154/236-5.jpeg_/richardson-herrera-thejambeforechristmas-36.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-123327689-8">
+      <title>Catching Vibes @ Capo DC</title>
+      <url>http://washingtondc.eventful.com/events/catching-vibes-capo-dc-/E0-001-123327689-8?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> If you take iconic spots and sounds like Buddha Bar, Sky Lounge, Ultra Lounge, Mushroom Jazz, Ibiza &amp; The White room and mix it with J-Dilla, Premier, Pete Rock, Dr. Dre, and Timbaland you get the inspiration for &amp;quot;Catching Vibes&amp;quot;. It&amp;#39;s a night where Marvin Gaye is all Method Man &amp; Mary J need to help Nina Simone and Talib Kweli &amp;quot;Get By&amp;quot;... Where Enya inspires the Fugees, and Bobby Caldwell will help you see &amp;quot;The Light&amp;quot; Get It? Cool! If not, like Biggie said, &amp;quot;If you don&amp;#39;t know, now you know&amp;quot;! &amp;quot;Catching Vibes&amp;quot; happens on the 2nd &amp; 4th (and 5th) Thursday of every month in the Speakeasy Backroom Lounge at Capo Italian Deli located at 715 Florida Ave, NW, DC. </description>
+      <start_time>2019-12-26 21:30:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-011944679-6</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/capo-italian-deli-/V0-001-011944679-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Capo Italian Deli</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>715 Florida Avenue Northwest</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20001</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.916771</latitude>
+      <longitude>-77.022558</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-02-12 05:11:32</created>
+      <owner>evdb</owner>
+      <modified>2019-02-12 05:11:32</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/041/942/950-5.jpeg_/catching-vibes-capo-dc-50.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/041/942/950-5.jpeg_/catching-vibes-capo-dc-50.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/041/942/950-5.jpeg_/catching-vibes-capo-dc-50.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/041/942/950-5.jpeg_/catching-vibes-capo-dc-50.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-122949890-7@2019112822">
+      <title>Live for Thursdays</title>
+      <url>http://washingtondc.eventful.com/events/live-thursdays-/E0-001-122949890-7@2019112822?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Come enjoy one of the freshest easy going parties at one of DC premier night clubs Living Room hosted by yours Truly Eyeconic Events 18 to Party  21 to Sip 21 &amp; Up Free until Midnight 18 &amp; Up girls free until Midnight 18 &amp; Up guys 10$ until Midnight 20$ after Midnight  Resident DJ: DJ TrevO (@djtrev0) Other Djs from the area will be booked as well. Music: Hip Hop, Pop, R&amp;B, Latin  DRINK DEALS: $3 shooters $5 rail $5 domestic beer  $150 Smirnoff  $200 Grey Goose (only pre booked not after the clubs open and trying to make deals) $50 btls house champagne $130 btls Moet Ice </description>
+      <start_time>2019-11-28 22:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-011222211-5</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/living-room-dc-/V0-001-011222211-5?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Living Room DC</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>1008 Vermont Avenue Northwest</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20005</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.9030798</latitude>
+      <longitude>-77.0337636</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>on various days</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-02-01 19:17:38</created>
+      <owner>evdb</owner>
+      <modified>2019-02-02 19:54:53</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/042/563/650-4.jpeg_/live-thursdays-50.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/042/563/650-4.jpeg_/live-thursdays-50.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/042/563/650-4.jpeg_/live-thursdays-50.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/042/563/650-4.jpeg_/live-thursdays-50.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-130180501-2@2019112622">
+      <title>Toniosoofly’s Stadium $2 Tuesday’s personal invite!</title>
+      <url>http://washingtondc.eventful.com/events/toniosooflys-stadium-2-tu-/E0-001-130180501-2@2019112622?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Stadium $2 Tuesday’s everyone free all night from 6pm  to 2am w/ this free ticket in the event descirption do not get the ticket from this eventbrite it will not be honored at the door $2 top shelf drinks all night for bday table Specials and table bookings call/text Tonio at 240.988.2771 https://www.eventbrite.com/e/tonio-invite-for-2-tuesdays-tickets-68074922927 </description>
+      <start_time>2019-11-26 22:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-005187017-2</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/echostage-/V0-001-005187017-2?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Echostage</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>2135 Queens Chapel Road NE</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20018</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.9198061</latitude>
+      <longitude>-76.9726545</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>on various days</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-09-04 08:34:35</created>
+      <owner>evdb</owner>
+      <modified>2019-09-04 09:00:43</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/044/911/125-0.jpeg_/toniosooflys-stadium-2-tuesdays-person-25.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/044/911/125-0.jpeg_/toniosooflys-stadium-2-tuesdays-person-25.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/044/911/125-0.jpeg_/toniosooflys-stadium-2-tuesdays-person-25.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/044/911/125-0.jpeg_/toniosooflys-stadium-2-tuesdays-person-25.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-129189798-3">
+      <title>Jump Little Children - White Buffalo Tour w/ Hula Hi-Fi - 12/10/19</title>
+      <url>http://washingtondc.eventful.com/events/jump-little-children-white-buffalo-tour-w-hula-/E0-001-129189798-3?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> 2019 marks the 25th year that &lt;strong&gt;Jump, Little Children&lt;/strong&gt; is a “must see live” band known for its high-energy shows. With an eclectic mix of musical influences from ethereal chamber pop to guitar driven alt-rock, they have built a grass-roots following of devoted fans across the country.&lt;p&gt;Between 1995 and 2006, they released 4 studio albums (The Licorice Tea Demos - 1995, Magazine - 1998, Vertigo - 2001, Between the Dim &amp; the Dark - 2004), 2 EPs (Buzz - 1997, Between the Glow &amp; the Light - 2005) 1 compilation of early material (The Early Years, Volume 1 - 2001) and a live double-album of their final performances (Live at the Dock Street Theatre - 2006). After over a decade of touring and recording they announced an indefinite hiatus in 2005. In 2015, a 10-year reunion tour that sold out in minutes re-energized the band to begin touring again, and fan-fund the 2018 critically acclaimed album &amp;quot;Sparrow&amp;quot;.&lt;p&gt;“The choice to be a band funded by fans rather than a record label is something we take great pride in,“ says multi-instrumentalist Matthew Bivins,“Every band tells its fans that they couldn’t do what they do without them. In our case, our community is the reason we didn&amp;#39;t stop at a handful of reunion shows. Being Jump, Little Children again is more than the excitement of recording and touring together. It’s the joy of being able to bring outside influences—other projects we’re passionate about—to the band, and sharing those influences with our community, too.”&lt;p&gt;What’s next for the band and its devoted following? “Sparrow” hasn’t even hit its first birthday and there are already new songs and ideas in the works. Most notably, the group has launched a self-proclaimed “experiment” on the crowdfunding platform Patreon. “It’s a healthy mix of hard-core nostalgia and a little taste of the future,” shares lead singer Jay Clifford. Every month, the band releases rare and never-heard live recordings, forgotten B-sides, and brand new demos. Clifford has taken on the roles of producer and host of “Cool Demo”, an audio documentary that dives deep into the making of“Sparrow” and often wanders to philosophical musings with all five members of the band. Become a patron at&lt;a href="http://patreon.com/jumplittlechildren" rel="nofollow"&gt; patreon.com/jumplittlechildren&lt;/a&gt; to experience more of the band’s past, present, and future.&lt;p&gt;In December 2019, Jump, Little Children will launch a tour through its favorite cities along the East Coast and dipping into the Midwest. “These shows will be anything but ordinary,” promises bass player Jonathan Gray. “We learned in 2018 that while fans loved having new music to sing along to, they’ll always want some of our pre-hiatus noise. Porqué no los dos?” Gray is alluding to a recent performance dubbed “#LicMag”, an evening for 200 JLC super-fans in the intimate Queen Street Playhouse of Charleston SC where the band played its popular 90s albums “The Licorice Tea Demos” and “Magazine” in their entirety. The show was a blast, and the band hopes to do more like it in the future. &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;</description>
+      <start_time>2019-12-10 19:30:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-012763800-0</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/city-winery-/V0-001-012763800-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>City Winery</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>1350 Okie St NE</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code>20002</postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.9145145</latitude>
+      <longitude>-76.9858324</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2019-08-04 12:18:26</created>
+      <owner>evdb</owner>
+      <modified>2019-08-04 17:07:06</modified>
+      <performers>
+        <performer>
+          <id>P0-001-000042944-4</id>
+          <url>http://concerts.eventful.com/Jump-Little-Children?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+          <name>Jump, Little Children</name>
+          <short_bio>Indie Rock Group</short_bio>
+          <creator>fiendish</creator>
+          <linker>evdb</linker>
+        </performer>
+      </performers>
+      <image></image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-119869278-8">
+      <title>#DripMas Fashion Meets Music {After Christmas Exclusive}</title>
+      <url>http://washingtondc.eventful.com/events/dripmas-fashion-meets-music-after-christmas-excl-/E0-001-119869278-8?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> #DripMas | After Christmas Exclusive {Dec 26} The Official DripMas | The Winter Flare!  HipHop; AfroBeats; Dancehall; Top40; ThrowBack 90s; Soca &amp; Dancehall Join us For The First edition of The #DripMas Party. Let Fashion meet Music and great vibes. Showcase your winter flare. It&amp;#39;s a Special Holiday Weekday celebration. Dress Up and Show Out !  Contact 202-321-5324  For VIP Bottle Service Reservations / Birthday Specials Available.. 21+ | Classy Attire: Drip!  </description>
+      <start_time>2019-12-26 21:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path>America/New_York</tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>America/New_York</olson_path>
+      <venue_id>V0-001-001953880-5</venue_id>
+      <venue_url>http://washingtondc.eventful.com/venues/washington-dc-united-states-/V0-001-001953880-5?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Washington, D.C., United States</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>Washington, D.C., United States</venue_address>
+      <city_name>Washington</city_name>
+      <region_name>District of Columbia</region_name>
+      <region_abbr>DC</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United States</country_name>
+      <country_abbr2>US</country_abbr2>
+      <country_abbr>USA</country_abbr>
+      <latitude>38.9071923</latitude>
+      <longitude>-77.0368707</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2018-11-08 03:45:00</created>
+      <owner>evdb</owner>
+      <modified>2018-12-26 02:45:13</modified>
+      <performers></performers>
+      <image>
+        <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/041/721/543-0.jpeg_/dripmas-fashion-meets-music-after-christmas-exclus-43.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/thumb/I0-001/041/721/543-0.jpeg_/dripmas-fashion-meets-music-after-christmas-exclus-43.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/small/I0-001/041/721/543-0.jpeg_/dripmas-fashion-meets-music-after-christmas-exclus-43.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>//d1marr3m5x4iac.cloudfront.net/images/medium/I0-001/041/721/543-0.jpeg_/dripmas-fashion-meets-music-after-christmas-exclus-43.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+  </events>
+</search>

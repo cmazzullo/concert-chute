@@ -1,11 +1,12 @@
 (ns concert-chute.io-test
   (:require [clojure.test :refer :all]
-            [concert-chute.io :refer :all]))
+            [concert-chute.io :refer :all])
+  (:require clojure.xml))
 
 (defn read-fixture
   "Read in fixture data as a string from a file in resources/fixtures/."
   [fixture-filename]
-  (slurp (clojure.java.io/resource (str "fixtures/" fixture-filename))))
+  (clojure.xml/parse (str (clojure.java.io/resource (str "fixtures/" fixture-filename)))))
 
 (defn read-raw-api-xml-fixture
   "Read in raw XML data pulled from the Eventful API to use as a fixture."
@@ -46,4 +47,4 @@
              {:url "example.com", :title "My Title"}))))
 
   (testing "fixtures are loaded correctly"
-    (is (not= fixture-data-page-1 ""))))
+    (is (not= (first fixture-data-page-1) ""))))

@@ -1,6 +1,8 @@
 (ns concert-chute.report
   (:require [clojure.string :as str])
-  (:require java-time))
+  (:require java-time)
+  (:require [cheshire.core :as cheshire])
+  (:require [ring.util.response :refer [response content-type]]))
 
 ;; Report output
 ;;
@@ -84,3 +86,10 @@
   [report-data]
   (println (str "event count: " (count report-data)))
   (println (pretty-print-report-str report-data)))
+
+
+;; JSON output
+
+(defn json-report
+  [report-data]
+  (cheshire/generate-string report-data))

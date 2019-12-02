@@ -27,8 +27,8 @@
 
 (defn query-api
   "Queries an API using the function `api-fn` with `search-terms`."
-  [api-fn search-terms]
-  (api-fn search-terms))
+  [search-terms]
+  (eventful-api-fn search-terms))
 
 (defn get-content-from-attr
   [attr]

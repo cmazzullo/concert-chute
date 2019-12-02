@@ -33,7 +33,12 @@
       (content-type "text/javascript")))
 
 (defn handler [request]
-  (content-type (response "Hello world")) "text/javascript")
+  (let [search-terms (search-terms-from-json (:body request))]
+    (if (get search-terms "debug") (response "DEBUG")
+        (let [data (io/download-events search-terms)
+              report-data (report/generate-report-data data)
+              json-data (report/json-report report-data)]
+          (content-type (response "Hello world") "text/javascript")))))
 
 (defn -main [& args]
   (jetty/run-jetty handler {:port 3000}))

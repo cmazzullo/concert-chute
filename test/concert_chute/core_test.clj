@@ -23,3 +23,17 @@
     (is (thrown? Exception
                  (search-terms-from-json
                   "{\"title\": \"Necronomicon\", \"author\": [\"Abdul\", \"A.\"]}")))))
+
+
+(deftest test-handler
+  (let [request {:server-port 12345
+                 :server-name "examplename"
+                 :remote-addr "192.168.0.1"
+                 :uri "ex.com"
+                 :scheme :http
+                 :request-method :post
+                 :headers {}
+                 :body "{}"}]
+    (testing "If 'debug' is one of the search terms, use `debug-api-fn`"
+      (let [debug-request (assoc request :body "{\"debug\": \"true\"}")]
+        (is (= (:body (handler debug-request)) "DEBUG"))))))

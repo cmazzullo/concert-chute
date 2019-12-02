@@ -6,9 +6,9 @@
 (deftest test-report-http-response
   (let [response (json-response-report report-data-fixture)]
     (testing "Make sure that the response has the correct content type for JSON"
-      (is (= (:content-type response "text/JSON"))))
+      (is (= "text/javascript" (get (:headers response) "Content-Type"))))
     (testing "Make sure that the content is correct"
-      (is (= (:body response expected-json-string))))))
+      (is (= expected-json-string (:body response))))))
 
 (deftest test-search-terms-from-json
   (testing "A flat map should return search terms"

@@ -1,7 +1,5 @@
 (ns concert-chute.core
   (:require [concert-chute [io :as io] [report :as report]])
-  (:require [clojure.string :as str])
-  (:require [clojure.tools.cli :refer [parse-opts]])
   (:require [ring.util.response :refer [response content-type]])
   (:require [ring.adapter.jetty :as jetty])
   (:require [cheshire.core :as cheshire])
@@ -33,12 +31,14 @@
       (content-type "text/javascript")))
 
 (defn handler [request]
-  (let [search-terms (search-terms-from-json (:body request))]
-    (if (get search-terms "debug") (response "DEBUG")
-        (let [data (io/download-events search-terms)
-              report-data (report/generate-report-data data)
-              json-data (report/json-report report-data)]
-          (content-type (response "Hello world") "text/javascript")))))
+  (if (= (:request-method request) :post)
+    (let [search-terms (search-terms-from-json (:body request))]
+      (if (get search-terms "debug") (response "DEBUG")
+          (let [data (io/download-events search-terms)
+                report-data (report/generate-report-data data)
+                json-data (report/json-report report-data)]
+            (content-type (response "Hello world") "text/javascript"))))
+    (response "Please use POST")))
 
 (defn -main [& args]
   (jetty/run-jetty handler {:port 3000}))

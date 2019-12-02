@@ -26,14 +26,16 @@
 
 
 (deftest test-handler
-  (let [request {:server-port 12345
+  (let [debug-request {:server-port 12345
                  :server-name "examplename"
                  :remote-addr "192.168.0.1"
                  :uri "ex.com"
                  :scheme :http
                  :request-method :post
                  :headers {}
-                 :body "{}"}]
+                 :body "{\"debug\": \"true\"}"}]
     (testing "If 'debug' is one of the search terms, use `debug-api-fn`"
-      (let [debug-request (assoc request :body "{\"debug\": \"true\"}")]
-        (is (= (:body (handler debug-request)) "DEBUG"))))))
+      (is (= (:body (handler debug-request)) "DEBUG")))
+    (testing "If :request-method is not POST, show a warning instead"
+      (let [get-request (assoc debug-request :request-method :get)]
+        (is (= (:body (handler get-request)) "Please use POST"))))))

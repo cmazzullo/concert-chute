@@ -8,9 +8,6 @@
 ;; processing that has been done! This is pure I/O with the outside world.
 
 ;; Long-term definitions
-(def base-url "https://api.eventful.com/rest/events/search?")
-(def app-key (str/trim (slurp "./app_key")))
-
 
 (defn construct-querystring
   "Turn a map of format term_name: term_value into a URL querystring."
@@ -18,24 +15,28 @@
   (str/join "&" (for [[term value] (seq term-map)]
                   (str term "=" value))))
 
-
-(defn query-api
+(defn eventful-api-fn
+  "Pulls data from the API at api.eventful.com"
   [search-terms]
-  (let [all-terms (assoc search-terms "app_key" app-key)
+  (let [base-url "https://api.eventful.com/rest/events/search?"
+        app-key (str/trim (slurp "./app_key"))
+        all-terms (assoc search-terms "app_key" app-key)
         querystring (construct-querystring all-terms)
         search-url (str base-url querystring)]
     (clojure.xml/parse search-url)))
 
+(defn query-api
+  "Queries an API using the function `api-fn` with `search-terms`."
+  [search-terms]
+  (eventful-api-fn search-terms))
 
 (defn get-content-from-attr
   [attr]
   (first (:content attr)))
 
-
 (defn pull-attr-from-list
   [tag attr-list]
   (first (filter #(= (:tag %) tag) attr-list)))
-
 
 (defn get-page-count
   [raw-data]
@@ -43,11 +44,9 @@
     (Integer/parseInt
      (get-content-from-attr (pull-attr-from-list :page_count attr-list)))))
 
-
 (defn download-page
   [search-terms page-number]
   (query-api (assoc search-terms "page_number" page-number)))
-
 
 (defn download-all-data
   "Download all events matching search-terms from XML REST API."
@@ -57,26 +56,12 @@
     (cons first-page
           (map #(download-page search-terms %) (range 2 (inc page-count))))))
 
-
 (defn query-total-items
   [search-terms]
   (let [attr-list
         (:content (query-api (assoc search-terms "count_only" "true")))]
     (Integer/parseInt
      (get-content-from-attr (pull-attr-from-list :total_items attr-list)))))
-
-(def output-fname "output.txt")
-
-(defn dump-concerts
-  "Dump concert data to a file."
-  [concert-data]
-  (spit output-fname concert-data))
-
-(defn load-concerts
-  "Read concert data from a file."
-  []
-  (read-string (slurp output-fname)))
-
 
 
 ;; Munging concert data

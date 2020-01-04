@@ -1,2 +1,2 @@
 # concert-chute
-Ingest data about concerts in DC, then email it to me
+Clojure web app to display concerts in DC

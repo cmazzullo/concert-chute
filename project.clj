@@ -8,6 +8,7 @@
                  [org.clojure/clojure "1.10.0"]
                  [org.clojure/tools.cli "0.4.2"]
                  [ring/ring-core "1.6.3"]
+                 [ring/ring-devel "1.6.3"]
                  [ring/ring-jetty-adapter "1.6.3"]]
   :main ^:skip-aot concert-chute.core
   :target-path "target/%s"
